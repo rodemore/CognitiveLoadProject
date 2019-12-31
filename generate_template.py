@@ -17,7 +17,7 @@ def generate_template(n_tasks,type_tsk,level, dir_name):
     while i<n_tasks:
         task = choice(archivos)
         id_tsk,subid,answ = task.lower().split(".")[0].split("_")
-        if i not in ids:
+        if id_tsk not in ids:
             ids.add(id_tsk)
             shutil.copy(dir_name+"/"+task, template_path+"/"+str(i+1)+".PNG")
             archivos.remove(task)
@@ -37,5 +37,5 @@ def create_directory(type_tsk, level):
         os.mkdir(path)
     return path
     
-generate_template(45,"numerico","easy","./tasks/numerico/easy" )
+generate_template(28,"secuencia","easy","./tasks/secuencia/easy" )
 
