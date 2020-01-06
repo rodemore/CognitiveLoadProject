@@ -37,5 +37,5 @@ def create_directory(type_tsk, level):
         os.mkdir(path)
     return path
     
-generate_template(28,"secuencia","easy","./tasks/secuencia/easy" )
+generate_template(28,"secuencia","hard","./tasks/secuencia/hard" )
 
