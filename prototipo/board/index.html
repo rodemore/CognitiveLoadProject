@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  </head>
+
+  <body onload="init();">
+    <style>
+      body{
+        background-color: #ffff;
+      }
+    canvas {
+    	
+        width: 10;
+        height: 10;
+        background-color: #e8eef0;
+    } 
+	button {
+		width: 100px;
+		height: 40px;
+		align-self: center;
+		margin-left: 250px;
+		margin-top: 30px;
+
+	}
+	</style>
+
+<canvas id="board_canvas" touchmove="move_handler(event)" ></canvas>
+
+<script src = "http://54.88.62.27/cgserver/socket.io/socket.io.js"></script>
+<!--<script src="http://192.168.1.10:3000/socket.io/socket.io.js"></script>-->
+<script src = "index.js"> </script>
+
+    <div id="target" style="width: 100%; height: 1000px !important;">  
+      <button id="save_btn" style="align-self: flex-end;"> Guardar</button>
+
+    </div>
+      
+  </body>
+</html>
