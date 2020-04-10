@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script>
+        let templates = ["numerico_facil.png", "numerico_dificil.png"];
+        let type = "numeric"
+        let testing_exercises = ["testing/NP1.PNG", "testing/NP2.PNG", "testing/NP3.PNG", "testing/NP4.PNG"]
+        
+    </script>
+
+
+<script src = "http://54.88.62.27/cgserver/socket.io/socket.io.js"></script>
+<!--<script src="http://192.168.1.10:3000/socket.io/socket.io.js"></script>-->
+    <script src="scripts/app.js"></script>
+
+    
+
+</head>
+<body id="Body" onkeypress="press(event)">
+    <div id="flag_div">
+        <img src="resources/flag.png" id="flag_disabled">
+    </div>
+    
+    <h3 id="titleLabel">Cuenta Comparaciones Numéricas</h3>
+    <div>
+        <button id="btn" onclick="start()">Round 1</button>
+    </div>
+
+</body>
+
+</html>

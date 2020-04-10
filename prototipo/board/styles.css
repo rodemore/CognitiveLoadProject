@@ -1,0 +1,17 @@
+body{
+    background-color: #ffff;
+  }
+canvas {
+    
+    width: 10;
+    height: 10;
+    background-color: #e8eef0;
+} 
+button {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    margin-left: 250px;
+    margin-top: 30px;
+
+}

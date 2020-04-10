@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        let templates = ["secuencia_facil.png", "secuencia_dificil.png"];
+        let type = "sequences";
+        let testing_exercises = ["testing/SP1.PNG", "testing/SP2.PNG", "testing/SP3.PNG", "testing/SP4.PNG"]
+    </script>
+<script src = "http://54.88.62.27/cgserver/socket.io/socket.io.js"></script>
+<!--<script src="http://192.168.1.10:3000/socket.io/socket.io.js"></script>-->
+    <script src="scripts/app.js"></script>
+
+</head>
+<body id="Body" onkeypress="press(event)">
+    <div id="flag_div">
+        <img src="resources/flag.png" id="flag_disabled">
+    </div>
+    <h3 id="titleLabel">Cuenta Secuencias</h3>
+    <div>
+        <button id="btn" onclick="start()">Round 1</button>
+    </div>
+
+</body>
+
+</html>
+
