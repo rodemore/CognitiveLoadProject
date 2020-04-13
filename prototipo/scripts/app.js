@@ -1,7 +1,7 @@
 
 
 // ID DEL PARTICIPANTE
-let participant = "p5";
+let participant = "p2";
 //TIEMPO DE DURACIÓN DE CADA PLANTILLAS EN SEGUNDOS
 seconds = 120
 
